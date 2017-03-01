@@ -29,7 +29,7 @@ namespace ImmutableTextureUploadTest
                         break;
                     }
 
-                    if (i > 0 && (i + 1) % 100 == 0)
+                    if ((i + 1) % 100 == 0)
                     {
                         Console.WriteLine($"{i + 1} tests -> OK");
                     }
