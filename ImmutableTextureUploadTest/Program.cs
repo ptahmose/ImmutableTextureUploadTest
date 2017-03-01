@@ -36,7 +36,7 @@ namespace ImmutableTextureUploadTest
 
                     if (Console.KeyAvailable)
                     {
-                        var cki = Console.ReadKey(false);
+                        var cki = Console.ReadKey(true);
                         if (cki.Key == ConsoleKey.Escape)
                         {
                             break;
